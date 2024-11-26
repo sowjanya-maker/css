@@ -1,4 +1,11 @@
 p{
     background-color: cyan;
     color:darkblue;
+    text-align:center;
+    text-decoration:dotted;
+    text-transform:capitalize;
+    text-shadow:5px;
+    font-size:large;
+    font-weight:100;
+    font-style:italic;
 }
