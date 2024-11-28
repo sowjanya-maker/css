@@ -1,0 +1,28 @@
+*{
+    margin:0px;
+    padding:0px;
+    background-color: antiquewhite;
+}
+.a{
+   background-color: darkmagenta;
+   border-radius: 100%;
+   margin: 1% solid black;
+   height:100px;
+   width:100px;
+   padding: 20px;
+}
+.b{
+    background-color: aqua;
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+   padding:20px;
+}
+.c{
+    background-color: blanchedalmond;
+    border-radius: 100%;
+    height:50px;
+    width:50px;
+    padding: 30px;
+    box-sizing: border-box;
+}
