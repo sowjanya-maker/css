@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+    background-color: lightblue;
+}
+main{
+    height: 350px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 200px;
+    padding: 20px;
+    display: block;
+    border: 2px solid white;
+    background-color: white;
+    justify-content: center;
+}
+div>h3{
+    text-align: center;
+    background-color: white;
+}
+div>p{
+    text-align: center;
+    background-color: white;
+    font-display:hsl(212, 45%, 89%);
+}
+main>img{
+    border-radius: 20px;
+}
