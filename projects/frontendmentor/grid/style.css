@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.parent{
+    gap: 10px;
+    height: fit-content;
+    width: fit-content;
+    display: grid;
+    grid-template-columns:repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    justify-content: center;
+    align-content: center;
+   border: 2px solid black;
+    
+}
+.child{
+    text-align: center;
+    align-content: center;
+    color: darkmagenta;
+    text-decoration: wavy;
+    text-shadow: 5px;
+    font-style:italic ;
+}
+.child1{
+    background-color: aqua;
+    color: black;
+}
+.child3{
+    background-color: aqua;
+}
+.child7{
+    background-color: aqua;
+}
+.child9{
+    background-color: aqua;
+}
