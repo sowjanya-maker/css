@@ -1,0 +1,34 @@
+div{
+    border:1px solid aqua;
+    height: 100px;
+    width: 100px;
+    color: red;
+   background-color: aqua;
+   
+}
+body{
+    background-color: black;
+}
+.a{
+    position: relative;
+    bottom: 0px;
+}
+.b{
+    position:absolute;
+    bottom: 0;
+}
+.c{
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.d{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.e{
+    position: absolute;
+    
+
+}
