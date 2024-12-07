@@ -4,12 +4,14 @@
     box-sizing: border-box;
 }
 header{
+    margin: 50px;
     height: 100vh;
     display: flex;
     justify-content: center;
     align-items:center;
 }
 main{
+    margin: 5px;
     height:70vh;
     display: flex;
     justify-content: center;
@@ -27,12 +29,6 @@ main{
     position: relative;
     bottom: 490px;
     text-align: center;
-}
-body>button:hover{
-    position: relative;
-    left: 500px;
-    right: 500px;
-    transform: scale(1.06);
 }
 .image>button{
    background-color: aqua;
