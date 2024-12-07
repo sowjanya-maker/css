@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+   height: 100vh;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+}
+.child:hover{
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
+    background-color: aquamarine;
+    transition: all 2s ease;
+    border-radius: 20px;
+}
+.child>h4{
+    text-align: center;
+}
+.child>a{
+    display: flex;
+    justify-content: center;
+}
+.child>img{
+    border: 1px solid white;
+    border-radius: 20px;
+}
