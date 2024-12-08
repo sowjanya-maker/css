@@ -16,27 +16,21 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(skyblue);
-    border-radius: 20px;
-}
-.a{
-    height: 514px;
-    width: 510px;
-    border: 1px solid black;
+    
     border-radius: 20px;
 }
 .a>p{
     position: relative;
     bottom: 490px;
     text-align: center;
+    text-decoration:double;
 }
 .image>button{
-   background-color: aqua;
-   display: flex;
-   justify-content: center;
-   align-items: center;
    border-radius: 20px;
-
+   display: block;
+   position: relative;
+   bottom: 70px;
+   left: 150px;
 }
 img{
     border-radius: 20px;
